@@ -1,0 +1,19 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+package tictactoe;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+class Game$8 implements ActionListener {
+    Game$8(Game var1) {
+        this.this$0 = var1;
+    }
+
+    public void actionPerformed(ActionEvent evt) {
+        Game.access$7(this.this$0, evt);
+    }
+}
