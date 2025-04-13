@@ -1,0 +1,20 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+package tictactoe;
+
+class Game$10 implements Runnable {
+    Game$10() {
+    }
+
+    public void run() {
+        Game game = new Game();
+        game.setVisible(true);
+        game.board = new Board();
+        game.board.initializeBoard();
+        game.setPlayer(1);
+        game.refreshBoardDisplay();
+    }
+}
